@@ -1,4 +1,6 @@
-baseURL: 'http://example.org/'
+# Leave this out if using subdirectories in path. It causes issues with toCSS.
+# baseURL: 'http://example.org/'
+relativeURLs: true
 languageCode: en
 title: Example Resume
 theme: hugo-devresume-theme
