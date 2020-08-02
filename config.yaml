@@ -19,7 +19,7 @@ params:
     location: Scottsboro, Alabama
     list:
       - icon: fas fa-phone-square
-         url: 'tel:#'
+        url: 'tel:#'
         text: 205 826 2131
       - icon: fas fa-envelope-square
         url: 'mailto:#'
