@@ -64,12 +64,12 @@ params:
         body: Oracle Aenean
         date: '2017'
   languages:
-    enable: false
+    enable: true
     list:
       - name: English
         level: Native
       - name: Spanish
-        level: Professional
+        level: Amateur
   interests:
     enable: true
     list:
