@@ -2,7 +2,7 @@
 # baseURL: 'http://example.org/'
 relativeURLs: true
 languageCode: en
-title: Example Resume
+title: Resume
 theme: hugo-devresume-theme
 params:
   author: CowboySmall
@@ -11,19 +11,19 @@ params:
   textPrimaryColor: '#292929'
   profile:
     enable: true
-    name: Simon Doe
+    name: William Morr
     tagline: Senior Software Engineer
     avatar: avatar.png
   contact:
     enable: true
-    location: New York
+    location: Scottsboro, Alabama
     list:
       # - icon: fas fa-phone-square
         # url: 'tel:#'
-        # text: 0123 4567 87
+        # text: 205 826 2131
       - icon: fas fa-envelope-square
         url: 'mailto:#'
-        text: simon.doe@yourwebsite.com
+        text: wmorr0503@mail.nacc.edu
       - icon: fas fa-globe
         url: '#'
         text: www.yourwebsite.com
@@ -46,7 +46,7 @@ params:
           - details: Strong problem solver
           - details: Good time management
   education:
-    enable: true
+    enable: false
     list:
       - degree: MSc in Computer Science
         university: University College London
@@ -73,36 +73,21 @@ params:
   interests:
     enable: true
     list:
-      - name: Climbing
-      - name: Snowboarding
-      - name: Photography
-      - name: Travelling
+      - name: Music
+      - name: Basketball
+      - name: Video Games
   summary:
     enable: true
     text: >-
-      Summarise your career here. Donec quam felis, ultricies nec, pellentesque
-      eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-      commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-      magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-      ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et
-      ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.
-      Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis
-      leo. Sed fringilla mauris sit amet nibh.
+      Summarise your career here.
   experience:
-    enable: true
+    enable: false
     list:
       - title: Senior Software Engineer
         dates: 2019 - Present
         company: Google
         details: >-
-          Role description goes here ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor
-          sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-          dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus. Donec quam felis.
+          Role description goes here.
         items:
           - details: 'Lorem ipsum dolor sit amet, consectetuer.'
           - details: Aenean commodo ligula eget dolor.
@@ -184,13 +169,13 @@ params:
     enable: true
     list:
       - icon: fab fa-github-square
-        url: //github.com/username
-        title: username
+        url: //github.com/t1d-nacc
+        title: t1d-nacc
       # - icon: fab fa-linkedin
         # url: //linkedin.com/in/username
         # title: username
-      # - icon: fab fa-twitter-square
-        # url: //twitter.com/username
-        # title: '@username'
+       - icon: fab fa-twitter-square
+         url: //twitter.com/WilliamMorr
+         title: '@morr_william'
   footer:
-    copyright: Simon Doe
+    copyright: William Morr
