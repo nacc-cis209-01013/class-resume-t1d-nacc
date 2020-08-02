@@ -18,9 +18,9 @@ params:
     enable: true
     location: Scottsboro, Alabama
     list:
-      # - icon: fas fa-phone-square
-        # url: 'tel:#'
-        # text: 205 826 2131
+      - icon: fas fa-phone-square
+         url: 'tel:#'
+        text: 205 826 2131
       - icon: fas fa-envelope-square
         url: 'mailto:#'
         text: wmorr0503@mail.nacc.edu
